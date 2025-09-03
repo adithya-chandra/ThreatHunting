@@ -1,4 +1,4 @@
-This is the POC to generate Threat Hunting Queries for an Alert by leveraging Claude, Chainlit and VirusTotal
+This is the POC to generate Threat Hunting Queries in Trellix Helix by leveraging Claude, Chainlit and VirusTotal
 
 Execute by running python -m chainlit run app.py
 
