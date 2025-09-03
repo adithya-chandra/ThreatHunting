@@ -2,6 +2,13 @@ This is the POC to generate Threat Hunting Queries for an Alert by leveraging Cl
 
 Execute by running python -m chainlit run app.py
 
+This has 2 modes, one for intel and one for helix querying
+
+```
+Make sure you update tokens - AWS CLI, VT API before executing
+```
+
+MODE A1
 ```
 🏹 Threat Intel Enrichment (Mode: A1)
 
@@ -10,8 +17,6 @@ Execute by running python -m chainlit run app.py
 • MITRE ATT&CK details — MITRE T1547
 
 • VirusTotal enrichment — ENRICH IP 1.2.3.4 or ENRICH HASH <hash>
-
-Make sure you update tokens - AWS CLI, VT API before executing
 ```
 MODE A2
 
